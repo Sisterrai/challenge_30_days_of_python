@@ -68,3 +68,22 @@ print("Full stack :" , full_stack)
 full_stack.insert(5, "Python")
 full_stack.insert(6, "SQL")
 print(full_stack)
+
+
+
+#Exercice  : Level 2
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort()
+print(ages)
+ages.append(19)
+ages.append(26)
+ages.sort()
+print(ages)
+import math
+import statistics as st
+med = st.median(ages)
+average = st.mean(ages)
+range = max(ages) - min(ages)
+print("median : ",med)
+print("average : ",average)
+print("range : ",range)
